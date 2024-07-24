@@ -279,9 +279,10 @@ jobs:
 
           # The lines below add the customizations listed using the CustomizationSelect script
 	  
-   	  echo "applying customization"
+          echo "applying customization"
           /bin/bash -c "$(curl -fsSL \
           https://raw.githubusercontent.com/loopandlearn/lnl-scripts/main/CustomizationSelect.sh)" \
+	  now_line \
           basal_lock 
 
           # the final customization listed above CANNOT have a continuation character "\"
