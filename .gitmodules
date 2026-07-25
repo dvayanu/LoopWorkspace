@@ -63,5 +63,5 @@
 	url = https://github.com/bastiaanv/EversenseKit
 [submodule "GlucoseDirectClient"]
 	path = GlucoseDirectClient
-	url = https://github.com/creepymonster/GlucoseDirectClient.git
+	url = https://github.com/dvayanu/GlucoseDirectClient.git
 	branch = master
